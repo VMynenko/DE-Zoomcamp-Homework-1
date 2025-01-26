@@ -113,3 +113,12 @@ WHERE tip_amount = (SELECT MAX(tip_amount) FROM sample)
 
 Answer
 - JFK Airport
+
+## Question 7. Terraform Workflow
+
+**terraform init** downloads provider plugins and sets up backend  
+**terraform apply -auto-approve** generates and automatically executes planned changes  
+**terraform destroy** removes all resources managed by Terraform  
+
+Answer
+- terraform init, terraform apply -auto-approve, terraform destroy
